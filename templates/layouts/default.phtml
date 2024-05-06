@@ -1,0 +1,51 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Luc, that guy from RipplePunks">
+    <meta http-equiv="refresh" content="600">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="<?=env('URL'); ?>/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?=env('URL'); ?>/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?=env('URL'); ?>/favicon-16x16.png">
+    <link rel="manifest" href="<?=env('URL'); ?>/site.webmanifest">
+
+    <title><?=$htmlTitle; ?></title>
+
+    <link href="<?=env('URL'); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=env('URL'); ?>/assets/css/main.css?t=<?=date('dmYHi'); ?>" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+            <a href="<?=env('URL'); ?>" class="navbar-brand d-flex">
+                <strong><?=env('PROJECT_NAME'); ?></strong>
+            </a>
+        </div>
+    </div>
+</header>
+
+<main role="main">
+    <div class="py-0 py-sm-0 py-lg-5">
+        <div class="container container-content">
+            <?=$content; ?>
+        </div>
+    </div>
+</main>
+
+<footer class="text-muted">
+    <div class="container">
+        <p class="text-center">
+            Mock up.
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>
