@@ -1,0 +1,33 @@
+{
+  "main": "App.js",
+  "scripts": {
+    "dev": "nodemon App.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "wallet-connect-buttons": "^0.2.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
+    "babel-loader": "^9.1.3",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "name": "solana-mint-burn",
+  "version": "1.0.0",
+  "description": "The goal of this project is to have an existing Solana NFT collection and allow holders to migrate their existing NFTs to a new version with a change of image.",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
