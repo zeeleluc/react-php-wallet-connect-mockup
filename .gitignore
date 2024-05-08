@@ -1,2 +1,11 @@
-/provision/
-/Vagrantfile
+# Front-end
+/node_modules
+/build
+
+# Back-end
+/api/vendor/
+
+# Vagrant files
+/.vagrant
+/provision
+Vagrantfile
