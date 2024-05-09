@@ -4,8 +4,3 @@
 
 # Back-end
 /api/vendor/
-
-# Vagrant files
-/.vagrant
-/provision
-Vagrantfile
