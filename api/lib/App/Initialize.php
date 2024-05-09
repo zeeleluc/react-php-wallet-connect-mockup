@@ -17,9 +17,6 @@ class Initialize extends BaseObject
         ObjectManager::set(new AbstractAction());
     }
 
-    /**
-     * @throws \Exception
-     */
     public function action(): Initialize
     {
         $this->getAbstractAction()->setAction($this->resolveAction());
